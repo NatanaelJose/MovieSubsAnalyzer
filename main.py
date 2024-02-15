@@ -22,7 +22,7 @@ def main():
     nltk.download('punkt')
     nltk.download('stopwords')
 
-    subtitles_folder = "" 
+    subtitles_folder = "path/to/your/subtitles/folder" 
 
     stop_words = set(stopwords.words('english'))
     word_counter = Counter()
